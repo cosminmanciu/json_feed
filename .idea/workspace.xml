@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec020524-9e16-4893-9474-d98aed9486da" name="Changes" comment="" />
+    <list default="true" id="ec020524-9e16-4893-9474-d98aed9486da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.docker/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/.env.nginx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/.env.nginx.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/nginx/templates/default.conf.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/php/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.nginx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/ImportCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/ImportCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ActorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ActorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/CacheService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/CacheService.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,26 +175,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected": "true",
-    "last_opened_file_path": "C:/Users/Cosmin/Desktop/Mindgeek/feed",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cosmin/Desktop/Mindgeek/feed&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Cosmin\Desktop\Mindgeek\showcase\src\Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cosmin\Desktop\Mindgeek\feed\.docker" />
+      <recent name="C:\Users\Cosmin\Desktop\Mindgeek\feed" />
       <recent name="C:\Users\Cosmin\Desktop\Mindgeek\showcase\public\images" />
     </key>
   </component>
@@ -245,7 +264,12 @@
       <workItem from="1683275871985" duration="37597000" />
       <workItem from="1683521556997" duration="9825000" />
       <workItem from="1683540266873" duration="27491000" />
-      <workItem from="1683573996257" duration="1336000" />
+      <workItem from="1683573996257" duration="3930000" />
+      <workItem from="1683603258674" duration="9497000" />
+      <workItem from="1683614423490" duration="160000" />
+      <workItem from="1683615450842" duration="19000" />
+      <workItem from="1683615688077" duration="580000" />
+      <workItem from="1683616811817" duration="77000" />
     </task>
     <servers />
   </component>

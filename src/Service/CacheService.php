@@ -14,9 +14,11 @@ class CacheService implements CacheServiceInterface
      */
     public function getCachedImage(Image $image)
     {
+
         $cacheKeys = [];
 
-        $redis = RedisAdapter::createConnection('redis://localhost');
+        $redis = RedisAdapter::createConnection($_ENV['REDIS_URL']);
+
         $cache = new RedisAdapter($redis);
 
         $urls = $image->getImageUrls();
@@ -39,7 +41,14 @@ class CacheService implements CacheServiceInterface
                 $cacheItem = $cache->getItem($cacheKey);
 
                 $cacheItem->set($imageData);
-                $cache->save($cacheItem);
+
+                try {
+
+                  $cache->save($cacheItem);
+                }catch (\Throwable $exception) {
+                    dd($exception->getMessage());
+                }
+
             }
         }
 
