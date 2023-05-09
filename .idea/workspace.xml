@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec020524-9e16-4893-9474-d98aed9486da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.docker/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/.env.nginx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/.env.nginx.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/nginx/templates/default.conf.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/php/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.docker/php/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.nginx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Command/ImportCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/ImportCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ActorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ActorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/CacheService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/CacheService.php" afterDir="false" />
-    </list>
+    <list default="true" id="ec020524-9e16-4893-9474-d98aed9486da" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,8 +178,9 @@
       <recent name="C:\Users\Cosmin\Desktop\Mindgeek\showcase\src\Resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Cosmin\Desktop\Mindgeek\feed\.docker" />
+      <recent name="C:\Users\Cosmin\Desktop\Mindgeek\feed\.docker\php" />
       <recent name="C:\Users\Cosmin\Desktop\Mindgeek\feed" />
+      <recent name="C:\Users\Cosmin\Desktop\Mindgeek\feed\.docker" />
       <recent name="C:\Users\Cosmin\Desktop\Mindgeek\showcase\public\images" />
     </key>
   </component>
@@ -270,6 +254,7 @@
       <workItem from="1683615450842" duration="19000" />
       <workItem from="1683615688077" duration="580000" />
       <workItem from="1683616811817" duration="77000" />
+      <workItem from="1683624486418" duration="7759000" />
     </task>
     <servers />
   </component>
